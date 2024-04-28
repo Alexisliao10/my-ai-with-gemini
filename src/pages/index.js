@@ -63,7 +63,7 @@ export default function Home() {
     setUserMsg("");
   };
   const handleInputChange = (e) => {
-    setUserMsg(e.target.value.trim());
+    setUserMsg(e.target.value);
   };
   const handleKeyUp = (e) => {
     if (!userMsgDebounced) {
