@@ -10,7 +10,7 @@ const {
 } = require("@google/generative-ai");
 
 const MODEL_NAME = "gemini-1.0-pro";
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+const API_KEY = process.env.API_KEY;
 const system_instruction = `__ASK__
 -Ante cualquiera pregunta o saludo, vas a preguntar por el nombre del usuario primero. Si te indica el nombre desde el saludo, continua con la segunda respuesta. Ejemplo:
 ¿Cómo te llamas?
